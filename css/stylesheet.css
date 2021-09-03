@@ -234,9 +234,9 @@ nav {
 
 .message {
   padding: 15px 40px;
-  background-color: #ffd23f;
+  background-color: #bf75ff;
   cursor: pointer;
-  box-shadow: 0 7px #faa421;
+  box-shadow: 0 7px #9b27ff;
   margin-top: 15px;
   /* margin-left: -395px; */
 }
@@ -265,7 +265,7 @@ footer p {
 
 footer {
   padding: 55px 0 120px 100px;
-  background-color: #65a5ec;
+  background-color: #bf75ff;
   height: auto;
 }
 .footer-logo {
@@ -314,6 +314,7 @@ footer {
 .profile {
   padding-bottom: 10px;
   text-align: center;
+  margin: 0 auto;
   float: left;
 }
 
