@@ -194,6 +194,12 @@ nav {
 .step {
   float: left;
   width: 33.3333%;
+  
+}
+.steps {
+  float: left;
+  width: 33.3333%;
+  
 }
 
 .step-icon {
@@ -264,6 +270,7 @@ footer p {
 }
 
 footer {
+  margin: 0 auto;
   padding: 55px 0 120px 100px;
   background-color: #bf75ff;
   height: auto;
@@ -311,12 +318,16 @@ footer {
   background-color: #f1f1f1;
 }
 
-.profile {
+/* .profile {
   padding-bottom: 10px;
   text-align: center;
   margin: 0 auto;
   float: left;
-}
+} */
+/* .card{
+  float: left;
+  width: 33.3333%;
+} */
 
 .profile-heading {
   padding-top: 80px;

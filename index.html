@@ -13,12 +13,14 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="topnav" id="myTopnav">
         <div class="container">
           <div class="header-left">
             <a href="index.html"><img class="logo" src="images/logo_BB1.png"></a>
           </div>
-          <span class="menu-icon fa fa-bars"></span>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <span class="menu-icon fa fa-bars"></span>
+          </a>
           <div class="header-right">
             <a href="#home" class="booking">HOME</a>
             <a href="#features" class="booking">FEATURES</a>
@@ -27,6 +29,26 @@
             <a href="#about" class="booking">ABOUT US</a>
             <!-- <a href="#" class="login">LOG IN</a> -->
           </div>
+          
+        </div>
+      </nav>
+      <nav class="topnav-responsive" id="myTopnav">
+        <div class="container">
+          <div class="header-left">
+            <a href="index.html"><img class="logo" src="images/logo_BB1.png"></a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <span class="menu-icon fa fa-bars"></span>
+          </a>
+          <div class="header-right">
+            <a href="#home" class="booking">HOME</a>
+            <a href="#features" class="booking">FEATURES</a>
+            <a href="#download" class="booking">DOWNLOAD</a>
+            <a href="#documentation" class="booking">DOCUMENTATION</a>
+            <a href="#about" class="booking">ABOUT US</a>
+            <!-- <a href="#" class="login">LOG IN</a> -->
+          </div>
+          
         </div>
       </nav>
       <div class="top-wrapper1" id="home">
@@ -114,37 +136,35 @@
         <div class="profile-wrapper">
           <div class="container">
             <h2 class="profile-heading">Abous Us</h2>
-              <div class="profile">
-                <div class="row">
-                  <div class="col">
-                    <div class="card" style="width: 10rem;">
+
+            <div class="step">
+                    <div class="card" style="width: 15rem;">
                       <img src="images/profile/Agung Prabowo.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title judul-kartu">Agung Prabowo</h5>
-                        <p class="card-text text-kartu"><br><br>Backend Engineer<br>&nbsp;</p>
+                        <p class="card-text text-kartu"><br>Backend Engineer<br>&nbsp;</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="card" style="width: 10rem;">
+                  <div class="step">
+                    <div class="card" style="width: 15rem;">
                       <img src="images/profile/Rafli Rasyidin.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title judul-kartu">Rafli Rasyidin</h5>
                         <p class="card-text text-kartu"><br>Android Development<br>&nbsp;</p>
                       </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="card" style="width: 10rem;">
-                      <img src="images/profile/Nana Mulyana Maghfur.jpg" style="height: 10rem;" class="card-img-top" alt="...">
+                    </div>
+                    <div class="step">
+                    <div class="card" style="width: 15rem;">
+                      <img src="images/profile/Nana Mulyana Maghfur.jpg" style="height: 15rem;" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title judul-kartu">Nana Mulyana Maghfur</h5>
-                        <p class="card-text text-kartu"><br>Machine Learning Engineer</p>
+                        <p class="card-text text-kartu"><br>Machine Learning Engineer<br>&nbsp; </p>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
+                    </div>
+
           </div>
       </aside>
     </main>
@@ -171,5 +191,15 @@
           </div>
         </div>
     </footer>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
   </body>
 </html>
