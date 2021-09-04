@@ -11,6 +11,6 @@ Zona: asia-southeast1-b
 Machine type: e2-medium (2 vCPU,4 GB memory)
 ```
 
-**Base url API** 
+**Landing Page URL** 
 
 > http://34.126.139.160/
